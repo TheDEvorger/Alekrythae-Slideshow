@@ -1,0 +1,211 @@
+AŁEK’RYŦHÆ SLIDESHOW v1.0.0
+KULLANIM KILAVUZU
+=================
+
+Ałek’ryŧhæ Slideshow, resimlerinizi otomatik ve animasyonlu
+bir slayt gösterisi olarak oynatan bir .alek uygulamasıdır.
+
+Bu uygulamanın çalışması için Ałek’ryŧhæ Core v1.0.0 veya
+daha yeni bir sürüm gereklidir.
+
+1. KURULUM
+   ========================================
+
+2. Ałek’ryŧhæ Core uygulamasını indirip ZIP dosyasından çıkarın.
+
+3. “Alekrythae Core.exe” dosyasını en az bir kez çalıştırın.
+   Bu işlem Windows’un .alek dosyalarını tanımasını sağlar.
+
+4. Ałek’ryŧhæ Slideshow ZIP dosyasını tamamen çıkarın.
+
+5. Uygulamayı doğrudan ZIP dosyasının içinden çalıştırmayın.
+
+6. RESİMLER NEREYE KONULUR?
+   ========================================
+
+Kullanmak istediğiniz resimleri şu klasöre yerleştirin:
+
+Sunum Resim
+
+Klasörün adını değiştirmeyin.
+
+Örnek klasör yapısı:
+
+Alekrythae-Slideshow-v1.0.0
+│
+├── Slideshow-4s.alek
+├── Slideshow-6s.alek
+├── Slideshow-8s.alek
+├── Slideshow-12s.alek
+│
+└── Sunum Resim
+├── 1.jpg
+├── 2.jpg
+├── 3.png
+└── 4.webp
+
+3. RESİMLER NASIL İSİMLENDİRİLİR?
+   ========================================
+
+Resimleri göstermek istediğiniz sıraya göre numaralandırın:
+
+1.jpg
+2.jpg
+3.jpg
+4.jpg
+
+Aşağıdaki biçim de kullanılabilir:
+
+1 - Giriş.jpg
+2 - Karakterler.jpg
+3 - Dünya Haritası.jpg
+4 - Son.jpg
+
+Uygulama dosya adındaki ilk sayıyı kullanarak sıralama yapar.
+
+En güvenli kullanım:
+
+1, 2, 3, 4, 5...
+
+Desteklenen resim biçimleri:
+
+.png
+.jpg
+.jpeg
+.webp
+.gif
+
+4. HANGİ .ALEK DOSYASI AÇILMALI?
+   ========================================
+
+Slaytların ekranda kalmasını istediğiniz süreye göre bir dosya seçin:
+
+Slideshow-4s.alek
+Her resim yaklaşık 4 saniye gösterilir.
+
+Slideshow-6s.alek
+Her resim yaklaşık 6 saniye gösterilir.
+
+Slideshow-8s.alek
+Her resim yaklaşık 8 saniye gösterilir.
+
+Slideshow-12s.alek
+Her resim yaklaşık 12 saniye gösterilir.
+
+Dört dosyayı birden açmanız gerekmez.
+Yalnızca istediğiniz hıza sahip olan dosyayı açın.
+
+5. SUNUM NASIL BAŞLATILIR?
+   ========================================
+
+6. İstediğiniz .alek dosyasına çift tıklayın.
+
+7. Açılış ekranındaki mavi aya tıklayın.
+
+8. Sunum ilk resimden başlayarak otomatik olarak ilerler.
+
+9. Son resimden sonra tekrar ilk resme döner.
+
+10. KLAVYE KONTROLLERİ
+    ========================================
+
+Boşluk Tuşu:
+Sunumu ve müziği duraklatır veya devam ettirir.
+
+Sağ Ok Tuşu:
+Sonraki resme geçer.
+
+Sol Ok Tuşu:
+Önceki resme döner.
+
+F11:
+Tam ekran moduna girer veya tam ekran modundan çıkar.
+
+7. MÜZİK EKLEME
+   ========================================
+
+Slayt gösterisine müzik eklemek isteğe bağlıdır.
+
+Bir müzik dosyasını .alek dosyalarının bulunduğu ana klasöre koyun:
+
+Alekrythae-Slideshow-v1.0.0
+│
+├── Slideshow-4s.alek
+├── Slideshow-6s.alek
+├── Slideshow-8s.alek
+├── Slideshow-12s.alek
+├── muzik.mp3
+│
+└── Sunum Resim
+
+Desteklenen ses biçimleri:
+
+.mp3
+.m4a
+.wav
+.ogg
+
+Karışıklık yaşanmaması için klasörde yalnızca bir müzik
+dosyası bulundurmanız önerilir.
+
+Müzik sunum boyunca tekrar eder.
+Sunum duraklatıldığında müzik de duraklatılır.
+
+8. ÖNEMLİ UYARILAR
+   ========================================
+
+* “Sunum Resim” klasörünün adını değiştirmeyin.
+
+* .alek dosyalarını “Sunum Resim” klasöründen ayırmayın.
+
+* Uygulamayı ZIP dosyasının içinden çalıştırmayın.
+
+* Resimlerin dosya adlarında sıra numarası kullanın.
+
+* Aynı anda yalnızca bir Slideshow .alek dosyasını açın.
+
+* Ałek’ryŧhæ Core kurulu değilse .alek dosyaları çalışmaz.
+
+9. SORUN GİDERME
+   ========================================
+
+SORUN:
+“Slayt resmi bulunamadı” uyarısı görünüyor.
+
+ÇÖZÜM:
+“Sunum Resim” klasörünün doğru isimde olduğundan ve içinde
+desteklenen resim dosyaları bulunduğundan emin olun.
+
+SORUN:
+.alek dosyası çalışmıyor veya Windows hangi programla
+açacağını soruyor.
+
+ÇÖZÜM:
+Ałek’ryŧhæ Core klasörünü ZIP’ten tamamen çıkarın ve
+“Alekrythae Core.exe” dosyasını bir kez çalıştırın.
+
+SORUN:
+Müzik çalmıyor.
+
+ÇÖZÜM:
+Müzik dosyasının .mp3, .m4a, .wav veya .ogg biçiminde
+olduğunu ve .alek dosyalarının yanında bulunduğunu kontrol edin.
+
+SORUN:
+Resimler yanlış sırada gösteriliyor.
+
+ÇÖZÜM:
+Dosya adlarını 1.jpg, 2.jpg, 3.jpg biçiminde yeniden
+numaralandırın.
+
+10. GEREKSİNİMLER
+    ========================================
+
+* Windows 10 veya Windows 11
+* Ałek’ryŧhæ Core v1.0.0 veya daha yeni bir sürüm
+* Microsoft Edge WebView2 Runtime
+
+Ałek’ryŧhæ Slideshow
+Copyright © 2026 TheDevorger
+All Rights Reserved.
+====================

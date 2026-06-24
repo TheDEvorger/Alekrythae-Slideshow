@@ -1,0 +1,23 @@
+Slaytta gösterilecek resimleri bu klasöre yerleştirin.
+
+Örnek:
+
+1.jpg
+2.jpg
+3.png
+4.webp
+
+Klasörün adını değiştirmeyin.
+
+------------------------------------------------------------------
+
+Place the images you want to display in the slideshow inside this folder.
+
+Example:
+
+1.jpg
+2.jpg
+3.png
+4.webp
+
+Do not rename this folder.

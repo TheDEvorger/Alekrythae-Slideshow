@@ -1,0 +1,220 @@
+AŁEK’RYŦHÆ SLIDESHOW v1.0.0
+USER GUIDE
+==========
+
+Ałek’ryŧhæ Slideshow is a local .alek application that
+automatically displays your images as an animated slideshow.
+
+Ałek’ryŧhæ Core v1.0.0 or a newer version is required
+to run this application.
+
+1. INSTALLATION
+   ========================================
+
+2. Download Ałek’ryŧhæ Core and completely extract its ZIP archive.
+
+3. Run “Alekrythae Core.exe” at least once.
+   This allows Windows to associate .alek files with
+   Ałek’ryŧhæ Core.
+
+4. Completely extract the Ałek’ryŧhæ Slideshow ZIP archive.
+
+5. Do not run the application directly from inside the ZIP archive.
+
+6. WHERE SHOULD THE IMAGES BE PLACED?
+   ========================================
+
+Place the images you want to display inside this folder:
+
+Sunum Resim
+
+Do not rename this folder.
+
+Example folder structure:
+
+Alekrythae-Slideshow-v1.0.0
+│
+├── Slideshow-4s.alek
+├── Slideshow-6s.alek
+├── Slideshow-8s.alek
+├── Slideshow-12s.alek
+│
+└── Sunum Resim
+├── 1.jpg
+├── 2.jpg
+├── 3.png
+└── 4.webp
+
+3. HOW SHOULD THE IMAGES BE NAMED?
+   ========================================
+
+Number the images according to the order in which you want
+them to appear:
+
+1.jpg
+2.jpg
+3.jpg
+4.jpg
+
+You may also use descriptive names:
+
+1 - Introduction.jpg
+2 - Characters.jpg
+3 - World Map.jpg
+4 - Ending.jpg
+
+The application uses the first number found in each file name
+to determine the slideshow order.
+
+The safest naming method is:
+
+1, 2, 3, 4, 5...
+
+Supported image formats:
+
+.png
+.jpg
+.jpeg
+.webp
+.gif
+
+4. WHICH .ALEK FILE SHOULD BE OPENED?
+   ========================================
+
+Choose a file according to how long you want each image
+to remain on the screen:
+
+Slideshow-4s.alek
+Displays each image for approximately 4 seconds.
+
+Slideshow-6s.alek
+Displays each image for approximately 6 seconds.
+
+Slideshow-8s.alek
+Displays each image for approximately 8 seconds.
+
+Slideshow-12s.alek
+Displays each image for approximately 12 seconds.
+
+You do not need to open all four files.
+Open only the file that matches your preferred speed.
+
+5. HOW TO START THE SLIDESHOW
+   ========================================
+
+6. Double-click the .alek file that matches your preferred speed.
+
+7. Click the blue moon on the opening screen.
+
+8. The slideshow will automatically begin with the first image.
+
+9. After the final image, the slideshow will return to the
+   first image and continue playing.
+
+10. KEYBOARD CONTROLS
+    ========================================
+
+Spacebar:
+Pauses or resumes the slideshow and music.
+
+Right Arrow:
+Moves to the next image.
+
+Left Arrow:
+Returns to the previous image.
+
+F11:
+Enters or exits full-screen mode.
+
+7. ADDING MUSIC
+   ========================================
+
+Adding music to the slideshow is optional.
+
+Place one music file in the same folder as the .alek files:
+
+Alekrythae-Slideshow-v1.0.0
+│
+├── Slideshow-4s.alek
+├── Slideshow-6s.alek
+├── Slideshow-8s.alek
+├── Slideshow-12s.alek
+├── music.mp3
+│
+└── Sunum Resim
+
+Supported audio formats:
+
+.mp3
+.m4a
+.wav
+.ogg
+
+To avoid confusion, it is recommended that you keep only
+one music file inside the slideshow folder.
+
+The music repeats throughout the slideshow.
+
+When the slideshow is paused, the music is paused as well.
+
+8. IMPORTANT NOTES
+   ========================================
+
+* Do not rename the “Sunum Resim” folder.
+
+* Keep the .alek files and the “Sunum Resim” folder together.
+
+* Do not run the application directly from inside the ZIP archive.
+
+* Include sequence numbers in the image file names.
+
+* Open only one Slideshow .alek file at a time.
+
+* The .alek files will not run without Ałek’ryŧhæ Core.
+
+9. TROUBLESHOOTING
+   ========================================
+
+PROBLEM:
+A “Slideshow images could not be found” message appears.
+
+SOLUTION:
+Make sure the folder is named exactly “Sunum Resim” and that
+it contains supported image files.
+
+PROBLEM:
+The .alek file does not open, or Windows asks which application
+should be used to open it.
+
+SOLUTION:
+Completely extract the Ałek’ryŧhæ Core ZIP archive and run
+“Alekrythae Core.exe” once.
+
+PROBLEM:
+The music does not play.
+
+SOLUTION:
+Make sure the music file uses the .mp3, .m4a, .wav or .ogg
+format and is placed beside the .alek files.
+
+PROBLEM:
+The images are displayed in the wrong order.
+
+SOLUTION:
+Rename the image files using a numbered format such as:
+
+1.jpg
+2.jpg
+3.jpg
+
+10. REQUIREMENTS
+    ========================================
+
+* Windows 10 or Windows 11
+* Ałek’ryŧhæ Core v1.0.0 or newer
+* Microsoft Edge WebView2 Runtime
+
+Ałek’ryŧhæ Slideshow
+Copyright © 2026 TheDevorger
+All Rights Reserved.
+====================
