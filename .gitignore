@@ -1,0 +1,26 @@
+# Windows and editor files
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vs/
+.vscode/
+.idea/
+
+# User slideshow images
+
+Sunum Resim/*
+!Sunum Resim/RESIMLERI-BURAYA-KOYUN__PLACE-IMAGES-HERE.txt
+
+# Local audio files
+
+*.mp3
+*.m4a
+*.wav
+*.ogg
+
+# Temporary and backup files
+
+*.tmp
+*.bak
+*~
